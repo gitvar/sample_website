@@ -5,7 +5,11 @@
     <meta charset="utf-8">
   </head>
   <body>
-
+    <div>
+      <a href="index.html">Home</a>
+      <a href="tags.html">HTML Tags</a>
+      <a href="moby_dick.html">Moby-Dick</a>
+    </div>
     <header>
       <h1>Important HTML tags</h1>
     </header>
@@ -15,7 +19,9 @@
         <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
       </a>
       <p>
-        This page is designed as a quick reference for some of the common tags covered in
+        This page is designed as a quick reference for some of the
+        <span>common tags</span>
+        covered in
         <a href="http://learnenough.com/html-tutorial">
           <em>Learn Enough HTML to Be Dangerous</em>
         </a>. In the process of making it, we'll learn how to make HTML
@@ -102,6 +108,7 @@
           <th>Example</th>
           <th>Result</th>
         </tr>
+
         <tr>
           <td>
             <code>em</code>
@@ -115,6 +122,7 @@
             <em>technical sophistication</em>
           </td>
         </tr>
+
         <tr>
           <td>
             <code>strong</code>
@@ -128,6 +136,7 @@
             <strong>at least a billion people</strong>
           </td>
         </tr>
+
         <tr>
           <td>
             <code>a</code>
@@ -143,6 +152,7 @@
             <a href="http://learnenough.com/" target="_blank">Learn Enough</a>
           </td>
         </tr>
+
         <tr>
           <td>
             <code>img</code>
@@ -158,17 +168,52 @@
             <img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl">
           </td>
         </tr>
+
+        <tr>
+          <td>li</td>
+          <td>list item</td>
+          <td>defines a list item</td>
+          <td>
+            &lt;li&gt;Mad sea captains are fun&lt;/li&gt;
+          </td>
+          <td>
+            <li>Mad sea captains are fun</li>
+          </td>
+        </tr>
+
       </table>
     </div>
+    <br>
 
     <div>
-      <p>
-        <a href="index.html">Home Page</a>
-      </p>
-      <p>
-        <a href="moby_dick.html">Moby-Dick Page</a>
-      </p>
+      <header>
+        <strong>Here's an Ordered List, which is a Block Element</stong>
+        <br>
+        <em>
+          The List Items are Inline Elements as seen in the example above
+        </em>
+      </header>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
     </div>
+    <br>
 
+    <div>
+      <header>
+        <strong>Here's an Unordered List, which is also a Block Element</strong>
+        <br>
+        <em>
+          The List Items are Inline Elements as seen in the example above
+        </em>
+      </header>
+      <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ul>
+    </div>
   </body>
 </html>
