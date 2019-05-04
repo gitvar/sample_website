@@ -1,3 +1,3 @@
 # sample_website
 
-## From Learn enough to be dangerous!
+## From Learn Enough to be Dangerous!
